@@ -13,3 +13,11 @@ C:\Users\ShubhamKhandelwal\source\repos\06 July_2022\06 July_2022\obj\Debug\net6
 C:\Users\ShubhamKhandelwal\source\repos\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.pdb
 C:\Users\ShubhamKhandelwal\source\repos\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.genruntimeconfig.cache
 C:\Users\ShubhamKhandelwal\source\repos\06 July_2022\06 July_2022\obj\Debug\net6.0\ref\06 July_2022.dll
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.csproj.AssemblyReference.cache
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.GeneratedMSBuildEditorConfig.editorconfig
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.AssemblyInfoInputs.cache
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.AssemblyInfo.cs
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.csproj.CoreCompileInputs.cache
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.dll
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\refint\06 July_2022.dll
+D:\05-July-2022\06 July_2022\06 July_2022\obj\Debug\net6.0\06 July_2022.pdb

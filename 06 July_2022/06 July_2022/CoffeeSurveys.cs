@@ -5,10 +5,44 @@ namespace WiredBrainCoffeeSurveys.Reports
     {
         static void Main(string[] args)
         {
-            GenerateWinnerEmails();
-            GenerateTasksReport();
-            GenerateCommetsReport();
+            bool quitApp = false;
+            do
+            {
+                Console.WriteLine("Please specify a report to run(rewards,comments,tasks)");
+                var selectedReport =  Console.ReadLine();
+                switch(selectedReport)
+                {
+                    case "rewards":
+                        GenerateWinnerEmails();
+                        break;
+                    case "comments":
+                        GenerateCommetsReport();
+                        break;
+                    case "tasks":
+                        GenerateTasksReport();
+                        break;
+
+                    case "quit":
+                        quitApp = true;
+                        break;
+                    default:
+                        Console.WriteLine("Sorry, that's not a valid option.");
+                        break;
+               
+                }
+                Console.WriteLine();
+
+            }
+            while (!quitApp);
+            
+
+            //GenerateWinnerEmails();
+            //GenerateTasksReport();
+            //GenerateCommetsReport();
+        
         }
+        
+
         public static void GenerateWinnerEmails()
         {
             var selectedEmails = new List<string>();
@@ -124,7 +158,7 @@ namespace WiredBrainCoffeeSurveys.Reports
                 Console.WriteLine(task);
 
             }
-            File.WriteAllLines("TasksReport.csv",tasks)
+            File.WriteAllLines("TasksReport.csv",tasks);
         }
     }
 }
