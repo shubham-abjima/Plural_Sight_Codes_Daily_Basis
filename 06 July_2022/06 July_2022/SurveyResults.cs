@@ -4,29 +4,29 @@ using System.Collections.Generic;
 using System.IO;
 namespace WiredBrainCoffeeSurveys.Reports
 {
-    public static class Q1Results
+    public static class SurveyResults
     {
-        public static double ServiceScore { get; set; } = 8.0;
+        public static double ServiceScore { get; set; }
 
-        public static double CoffeeScore { get; set; } = 8.5;
+        public static double CoffeeScore { get; set; }
 
-        public static double PriceScore { get; set; } = 6.0;
+        public static double PriceScore { get; set; } 
 
-        public static double FoodScore { get; set; } = 7.5;
+        public static double FoodScore { get; set; } 
 
-        public static double WouldRecommend { get; set; } = 6.5;
+        public static double WouldRecommend { get; set; }
 
-        public static string FavouriteProduct { get; set; } = "Cappucino";
+        public static string FavouriteProduct { get; set; } 
 
-        public static string LeaseFavouriteProduct { get; set; } = "Frappucino";
+        public static string LeaseFavouriteProduct { get; set; } 
 
-        public static string AreaToImprove { get; set; } = "MobileApp";
+        public static string AreaToImprove { get; set; } 
 
-        public static int NumberSurveyed { set; get; } = 500;
+        public static int NumberSurveyed { set; get; } 
 
-        public static int NumberResponded { set; get; } = 400;
+        public static int NumberResponded { set; get; }
 
-        public static double NumberRewardsMember { get; set; } = 130;
+        public static double NumberRewardsMember { get; set; } 
 
         public static List<SurveyResponse> Responses = new List<SurveyResponse>()
         {
