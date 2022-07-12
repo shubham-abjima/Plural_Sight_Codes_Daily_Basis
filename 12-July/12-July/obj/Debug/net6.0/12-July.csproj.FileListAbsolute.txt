@@ -1,0 +1,15 @@
+D:\05-July-2022\12-July\12-July\bin\Debug\net6.0\12-July.exe
+D:\05-July-2022\12-July\12-July\bin\Debug\net6.0\12-July.deps.json
+D:\05-July-2022\12-July\12-July\bin\Debug\net6.0\12-July.runtimeconfig.json
+D:\05-July-2022\12-July\12-July\bin\Debug\net6.0\12-July.dll
+D:\05-July-2022\12-July\12-July\bin\Debug\net6.0\12-July.pdb
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.csproj.AssemblyReference.cache
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.GeneratedMSBuildEditorConfig.editorconfig
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.AssemblyInfoInputs.cache
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.AssemblyInfo.cs
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.csproj.CoreCompileInputs.cache
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.dll
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\refint\12-July.dll
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.pdb
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\12-July.genruntimeconfig.cache
+D:\05-July-2022\12-July\12-July\obj\Debug\net6.0\ref\12-July.dll
