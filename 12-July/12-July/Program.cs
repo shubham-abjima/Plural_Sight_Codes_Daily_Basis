@@ -19,11 +19,11 @@ namespace _12_July
             WriteLine("Enter Operation:");
             String operation = ReadLine().ToUpperInvariant();
 
-            var calculator = new Calculator();
+            var Calculator = new Calculator();
 
             try
             {
-                int result   =  calculator.Calculate(number1,number2,null);
+                int result   =  Calculator.Calculate(number1,number2,null);
                 DisplayResult(result);
             }
             catch(ArgumentNullException ex) when(ex.ParamName == "o5" +
@@ -36,15 +36,21 @@ namespace _12_July
                 // Log.error(ex);
                 WriteLine($"An Argument was null.{ex}");
             }
-            catch (ArgumentOutOfRangeException ex)
+            catch (_12_July.CalculationOperationNotSupportedException ex)
             {
                 // Log.error(ex);
-                WriteLine($"Operation is not supported.{ex}");
+                WriteLine($"CalculationOperationNotSupportedException caught '{ex.operation }'");
+                WriteLine(ex);
             }
-            //catch (Exception ex)
-            //{
-            //    WriteLine($"Sorry,something went wrong.{ex}");
-            //}
+            catch(CalculationException ex)
+            {
+                WriteLine($"CalculationException caught");
+                WriteLine(ex);
+            }
+            catch(Exception ex)
+            {
+                WriteLine($"Sorry something went wrong.{ex}");
+            }
             finally
             {
                 WriteLine("Finally worked");

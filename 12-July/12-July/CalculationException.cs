@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
 
 namespace _12_July
 {
-    class CalculationException : Exception
+    public class CalculationException : Exception
     {
-        private const string DefaultMessage = " An error occured dusing calculations.  "
+        private const string DefaultMessage = " An error occured dusing calculations.  ";
     
         public CalculationException() : base(DefaultMessage)
         {

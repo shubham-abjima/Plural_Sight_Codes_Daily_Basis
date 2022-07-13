@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\05-July-2022\\12-July\\ConsoleCalculator.Tests.xUnit\\ConsoleCalculator.Tests.xUnit.csproj": {}
+  },
+  "projects": {
+    "D:\\05-July-2022\\12-July\\12-July\\12-July.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\05-July-2022\\12-July\\12-July\\12-July.csproj",
+        "projectName": "12-July",
+        "projectPath": "D:\\05-July-2022\\12-July\\12-July\\12-July.csproj",
+        "packagesPath": "C:\\Users\\ShubhamKhandelwal\\.nuget\\packages\\",
+        "outputPath": "D:\\05-July-2022\\12-July\\12-July\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShubhamKhandelwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\05-July-2022\\12-July\\ConsoleCalculator.Tests.xUnit\\ConsoleCalculator.Tests.xUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\05-July-2022\\12-July\\ConsoleCalculator.Tests.xUnit\\ConsoleCalculator.Tests.xUnit.csproj",
+        "projectName": "ConsoleCalculator.Tests.xUnit",
+        "projectPath": "D:\\05-July-2022\\12-July\\ConsoleCalculator.Tests.xUnit\\ConsoleCalculator.Tests.xUnit.csproj",
+        "packagesPath": "C:\\Users\\ShubhamKhandelwal\\.nuget\\packages\\",
+        "outputPath": "D:\\05-July-2022\\12-July\\ConsoleCalculator.Tests.xUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShubhamKhandelwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\05-July-2022\\12-July\\12-July\\12-July.csproj": {
+                "projectPath": "D:\\05-July-2022\\12-July\\12-July\\12-July.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
